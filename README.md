@@ -9,6 +9,8 @@ The measurement area includes three representative trajectories:
 - **Corridor**
 - **Suite**
 
+---
+
 - ## 📊 Dataset Structure
 
 The dataset consists of the following components:
@@ -20,6 +22,7 @@ The positions of deployed Wi-Fi Access Points.
 
 Each row corresponds to one AP.
 
+
 ### 2. RTT Measurements (`RTToutput`)
 RTT measurements collected from multiple APs.
 
@@ -29,7 +32,6 @@ RTT measurements collected from multiple APs.
 - `timestamp`: measurement time
 - `APi_RTT`: RTT value measured from the i-th AP
 
----
 
 ### 3. Ground Truth Trajectory (`GTLidar`)
 Ground-truth user positions obtained using LiDAR-based tracking.
@@ -37,6 +39,10 @@ Ground-truth user positions obtained using LiDAR-based tracking.
 `{user_X_coordinate | user_Y_coordinate}`
 
 Each entry corresponds to the true position of the user at the given measurement instance.
+
+<img width="2232" height="777" alt="trajectory" src="https://github.com/user-attachments/assets/e7ba6a5e-66ad-465c-8b03-4ebe265dcf00" />
+Figure 1. Experiment setting and map of indoor ranging errors along the GT trajectory in three experiments. The background shows the floor plan of the indoor environment. Colored dots represent ranging errors at different positions along the GT trajectory, with the color scale indicating the magnitude of the error in meters. Red circles denote unchosen APs, and the green triangle represents the chosen AP utilized for visualizing ranging errors. (a) Experiment site; (b) Experimental equipment;(c) Ranging error in narrow corridor experiment (taking AP 1 as an example); (d) Ranging error in spacious corridor experiment 
+ (taking AP 3 as an example); (e) Ranging error in suite experiment (taking AP 1 as an example).
 
 ---
 
@@ -51,8 +57,6 @@ Each entry corresponds to the true position of the user at the given measurement
   - RTT error modeling and mitigation
 
 ---
-[trajectory.pdf](https://github.com/user-attachments/files/24334833/trajectory.pdf)
-
 
 ## 📖 Citation
 
