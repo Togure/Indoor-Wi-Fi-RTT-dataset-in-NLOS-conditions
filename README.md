@@ -51,6 +51,7 @@ Each entry corresponds to the true position of the user at the given measurement
   - RTT error modeling and mitigation
 
 ---
+[trajectory.pdf](https://github.com/user-attachments/files/24334833/trajectory.pdf)
 
 
 ## 📖 Citation
@@ -58,3 +59,5 @@ Each entry corresponds to the true position of the user at the given measurement
 If you use this dataset in your research, please cite the following paper:
 
 [1] Lyu, S. Bai, X. Wang, L. Li, and G. Zhang, “Wi-fi rtt indoor positioning using visibility matching with nlos receptions,” IEEE Internet of Things Journal, vol. 12, no. 12, pp. 18 779–18 790, 2025.
+
+[2] Lyu Z, Li L, Meng Q, et al. Improving Wi-Fi indoor positioning based on matching visibility with virtual simulation[C]//2024 14th International Conference on Indoor Positioning and Indoor Navigation (IPIN). IEEE, 2024: 1-6.
